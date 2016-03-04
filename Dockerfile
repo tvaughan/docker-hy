@@ -3,4 +3,4 @@ MAINTAINER "Tom Vaughan <tvaughan@tocino.cl>"
 
 RUN pip3 install hy==0.11.1
 
-ENTRYPOINT ["/usr/local/bin/hy"]
+CMD ["hy"]
